@@ -2,6 +2,13 @@
 
 Materiały z prezentacji na konferencji beIT
 
+## Opis warsztatu
+
+Blockchain to ostatnio bardzo modne pojęcie ze względu na krociowe zyski, które można było odnieść zakupując kryptowaluty.
+W części teoretycznej warsztatu poznasz pojęcia związane z blockchainem, zasadę jego działania oraz dowiesz się na jakiej zasadzie działają inteligentne kontrakty* (smart contract). W części warsztatowej napiszemy własny smart contract, który wdrożymy w prywatnym blockchainie NEO.
+
+\* *inteligentny kontrakt najprościej wytłumaczyć jako zwykły progam, który wykonuje zadania w zależności od inputu (**jeśli A to zrób B**), w połączeniu z cechami jakimi charakteryzuje się blockchain, inteligentny kontrakt stwarza niezwykłe możliwości do automatyzowania zadań, które obecnie wymagają zaufanego pośrednika (notariusza, banku itp.).*
+
 ## Przygotowanie do warsztatu
 
 Aktualizacja: ***13-04-2018 11:30***
