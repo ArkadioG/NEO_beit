@@ -44,7 +44,7 @@ Aktualizacja: ***21-04-2018 17:57***
     `mkdir c:\kontrakty`
 
   * uruchom kontener z blockchainem NEO ze zmapowanym folderem kontraktów:
-    * Linux/Mac/Windows-Powershell   
+    * Linux / Mac  
         ```bash
         docker run -d --name neo-privnet-with-gas \
         --mount type=bind,source=~/kontrakty,target=/kontrakty \
