@@ -11,11 +11,10 @@ W części teoretycznej warsztatu poznasz pojęcia związane z blockchainem, zas
 
 ## Przygotowanie do warsztatu
 
-Aktualizacja: ***13-04-2018 11:30***
+Aktualizacja: ***21-04-2018 11:30***
 
-```text
-Sprawdź na kilka dni przed warsztatem czy kroki dotyczące instalacji nie zostały zaktualizowane. W razie problemów z instalacją/przygotowaniem privnetu możesz zgłosić buga używając opcji w github.
-```
+**Sprawdź na kilka dni przed warsztatem czy kroki dotyczące instalacji nie zostały zaktualizowane. W razie problemów z instalacją/przygotowaniem privnetu możesz zgłosić buga używając opcji w github.**
+
 
 * Wymagany system: Win/**Linux**/OSx
 * Wymagana wersja Python: **3.6**  
@@ -37,9 +36,38 @@ Sprawdź na kilka dni przed warsztatem czy kroki dotyczące instalacji nie zosta
 * pobierz i zainstaluj obraz prywatnego blockchain NEO, ktorej użyjemy do testowego wdrażania naszych kontraktów.
   * pobierz obraz prywatnej sieci (privnet)  
   `docker pull metachris/neo-privnet-with-gas`
+  
+  * utwórz na swojej maszynie folder, w którym będziesz zapisywać kod kontraktów; folder ten udostępnimy wewnątrz kontenera, aby możliwe było kompilowanie kontraktów
+    * Linux/Mac/Windows-Powershell  
+    `mkdir ~/kontrakty`
+    * Windows wiersz poleceń  
+    `mkdir c:\kontrakty`
 
-  * uruchom kontener z blockchainem NEO (polecenie jednolinijkowe!):  
-  `docker run -d --name neo-privnet-with-gas -p 20333-20336:20333-20336/tcp -p 30333-30336:30333-30336/tcp metachris/neo-privnet-with-gas`
+  * uruchom kontener z blockchainem NEO ze zmapowanym folderem kontraktów:
+    * Linux/Mac/Windows-Powershell   
+        ```bash
+        docker run -d --name neo-privnet-with-gas \
+        --mount type=bind,source=~/kontrakty,target=/kontrakty \
+        -p 20333-20336:20333-20336/tcp \
+        -p 30333-30336:30333-30336/tcp \
+        metachris/neo-privnet-with-gas
+        ```
+    * Windows Powershell
+        ```bash
+        docker run -d --name neo-privnet-with-gas `
+        --mount type=bind,source=~/kontrakty,target=/kontrakty `
+        -p 20333-20336:20333-20336/tcp `
+        -p 30333-30336:30333-30336/tcp `
+        metachris/neo-privnet-with-gas
+        ```
+    * Windows wiersz poleceń  
+        ```bash
+        docker run -d --name neo-privnet-with-gas^
+         --mount type=bind,source=c:\kontrakty,target=/kontrakty^
+         -p 20333-20336:20333-20336/tcp^
+         -p 30333-30336:30333-30336/tcp^
+         metachris/neo-privnet-with-gas
+        ```
 
   * przetestuj czy Twój prywatny blockchain działa poprawnie:  
     * połącz się z kontenerem i uruchom w nim terminal:  
@@ -51,3 +79,5 @@ Sprawdź na kilka dni przed warsztatem czy kroki dotyczące instalacji nie zosta
     `block 0`
     * możesz wyjść z NEO Python CLI, wpisz:  
     `exit`
+
+[Przejdź do warsztatu](w1_run.md)
