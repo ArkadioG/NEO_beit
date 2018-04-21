@@ -6,7 +6,9 @@
 * **neo-scan** - block explorer
 * postgre - baza dla neo-scan
 
-## Pobranie, instalacja i uruchomienie neo-loical
+## Pobranie, instalacja i uruchomienie neo-local
+
+**Windows - szczegóły [tutaj](neo-local-win.md)**
 
 1. sklonuj repozytorium **neo-local** do wybranego przez siebie folderu:  
     `git clone https://github.com/neoauth/neo-local.git`
