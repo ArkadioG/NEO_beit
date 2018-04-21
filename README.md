@@ -11,7 +11,7 @@ W części teoretycznej warsztatu poznasz pojęcia związane z blockchainem, zas
 
 ## Przygotowanie do warsztatu
 
-Aktualizacja: ***21-04-2018 11:30***
+Aktualizacja: ***21-04-2018 17:57***
 
 **Sprawdź na kilka dni przed warsztatem czy kroki dotyczące instalacji nie zostały zaktualizowane. W razie problemów z instalacją/przygotowaniem privnetu możesz zgłosić buga używając opcji w github.**
 
