@@ -23,7 +23,7 @@ Możemy zrobić to na 2 sposoby:
 
 1. Pobranie pliku portfela  
     Musisz być w bashu wewnątrz kontenera, w folderze `/`  
-    * pobierz plik portfela: `curl https://github.com/ArkadioG/NEO_beit/main.wallet -o main.wallet`
+    * pobierz plik portfela: `curl https://s3.amazonaws.com/neo-experiments/neo-privnet-old.wallet -o main.wallet`
     * uruchom neo cli: `python3 /opt/neo-python/prompt.py -p`
     * otwórz portfel: `open wallet main.wallet`  
       hasło: `coz`
