@@ -26,7 +26,7 @@ Możemy zrobić to na 2 sposoby:
     * pobierz plik portfela: `curl https://github.com/ArkadioG/NEO_beit/main.wallet -o /opt/neo-python/main.wallet`
     * uruchom neo cli: `python3 /opt/neo-python/prompt.py -p`
     * otwórz portfel: `open wallet main.wallet`  
-      hasło: `qazqazqazq`
+      hasło: `coz`
     * przebuduj portfel: `wallet rebuild`
         
         
@@ -44,6 +44,8 @@ Po przebudowaniu portfela możesz sprawdzić stan środków poleceniem `wallet`.
         "[NEO]: 100000000.0 ",  
         "[NEOGas]: 7624.0 "  
     ],
+    
+W folderze `/` znajdują się 3 portfele: `wallet1.db3`, `wallet2.db3`, `wallet3.db3`. Hasło do każdego z nich to `coz` możesz je używać w swoich testach kontraktu.
     
 [Przejdź do kolejnego kroku - ]()
    
