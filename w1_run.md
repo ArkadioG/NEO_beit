@@ -30,7 +30,7 @@ W tym momencie jesteś w bashu, w kontenerze, w głównym folderze (root - `/`).
 Musimy usunąć plik starego łańcucha - będziemy synchronizować się z blockchainem na nowo.
 
 * Będąc w głównym folderze kontenera (`/`) wpisz polecenie:  
-`rm -rf Chains/privnet`
+`rm -rf opt/neo-python/Chains/privnet`
 
 ## Opłaty sieci - informacja
 
