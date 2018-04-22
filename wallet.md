@@ -44,5 +44,5 @@ Dodatkowo sieć pobiera opłaty za używnie funkcjonalności systemu w trakcie w
 
 Prywatna sieć pobiera takie same opłaty, więc musimy posiadac portfel, który ma odpowiednio dużo GASu.
 
- ####[Kolejny krok - uruchomienie testowego kontraktu](test_contract.md) 
+ #### [Kolejny krok - uruchomienie testowego kontraktu](test_contract.md) 
  

@@ -51,3 +51,7 @@ W części teoretycznej warsztatu poznasz pojęcia związane z blockchainem, zas
     * coś innego
     
 ####[Kolejny krok - instalacja blockchain NEO](neo-local.md) 
+
+## Slajdy
+
+Slajdy pdf z warsztatu dostępne są [tutaj](slajdy.pdf)

@@ -25,4 +25,4 @@
  
  1. Aby zastopować kontenery (są cały czas uruchomione w tle) wpisz polecenie `make stop`
  
- ####[Kolejny krok - otwarcie portfela](wallet.md) 
+ #### [Kolejny krok - otwarcie portfela](wallet.md) 

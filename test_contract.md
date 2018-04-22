@@ -14,3 +14,15 @@ Wraz z neo-local jest dostępny jeden kontrakt, który możemy uruchomić aby sp
 ## Lokalizacja kontraktu i ścieżki w neo-python
 
 Kontrakt testowy uruchomiony powyżej znajduje się w folderze `<ścieżka do repo>/neo-local/smart-contracts`
+
+
+## Przydatne linki
+
+* Argumenty kontraktu i zwracane wartości  
+    <https://neo-python.readthedocs.io/en/latest/data-types.html#contractparametertypes>
+* neo-python dokumentacja:  
+    <https://neo-python.readthedocs.io/en/latest/>
+* neo-boa  
+    
+* neo-local
+    <https://github.com/neoauth/neo-local>
