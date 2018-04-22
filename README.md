@@ -50,7 +50,7 @@ W części teoretycznej warsztatu poznasz pojęcia związane z blockchainem, zas
     * [Visual Studio Code](https://code.visualstudio.com/)
     * coś innego
     
-####[Kolejny krok - instalacja blockchain NEO](neo-local.md) 
+#### [Kolejny krok - instalacja blockchain NEO](neo-local.md) 
 
 ## Slajdy
 
